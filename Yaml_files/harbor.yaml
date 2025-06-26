@@ -1206,7 +1206,7 @@ metadata:
     component: portal
     app.kubernetes.io/component: portal
 spec:
-  replicas: 2
+  replicas: 1
   revisionHistoryLimit: 10
   selector:
     matchLabels:
